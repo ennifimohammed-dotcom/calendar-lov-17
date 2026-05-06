@@ -1,0 +1,37 @@
+name: hijri_calendar
+description: Hijri Calendar — World-class Islamic calendar app with event management.
+publish_to: 'none'
+version: 1.0.17+17
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  google_fonts: ^6.2.1
+  uuid: ^4.5.0
+  intl: ^0.19.0
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.1
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.1
+  flutter_animate: ^4.5.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
